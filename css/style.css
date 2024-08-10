@@ -1,0 +1,37 @@
+.logo__mi{
+    width: 32px;
+}
+@media screen and (max-width:1024px){
+    .rigt-nav-icons{
+        display: flex;
+        flex-direction: row;
+        gap:10px;
+        position: absolute;
+        right: 100px;
+        top:7px;
+    
+    }
+    
+}
+.nav-link{
+    color: black;
+    border-bottom: solid 2px transparent;
+}
+.nav-link:hover{
+    color:#f66701;
+    border-bottom: solid 2px #ff6900;
+}
+.rigt-nav-icons .nav-link{
+    border-bottom: 0px;
+}
+.rigt-nav-icons .nav-link:hover{
+    color: #00000000;
+}
+.logo__mi .logo__home{
+    transform: translateX(-110px);
+    transition: ease-in-out 0.5s;
+}
+.logo__mi:hover .logo__home{
+    transform: translateX(-110px);
+    transition: ease-in-out 0.5s;
+}
